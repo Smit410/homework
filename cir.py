@@ -1,4 +1,4 @@
-radius = float(input("Enter radius: "))
-circumference = 2 * 3.14 * radius
-
-print("The circumference is:", circumference)
+pi = 3.1415926535
+radius = float(input("plz enter radius: "))
+circumference = 2 * pi * radius
+print("Circumference:", circumference)
