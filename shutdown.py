@@ -1,11 +1,11 @@
-def shutdown(input_data):
-    if input_data == "Yes":
+def shutdown(input_user):
+    input_user = input_user.lower()
+    
+    if input_user == "yes":
         print("Shutting down")
-    elif input_data == "No":
+    elif input_user == "no":
         print("Abort shut down")
     else:
         print("Sorry")
-
-choice = input("Do you want to shut down? (Yes/No): ")
-
-shutdown(choice)
+user_choice = input("Do you want to shut down? (Yes/No): ")
+shutdown(user_choice)
