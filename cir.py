@@ -1,4 +1,7 @@
-pi = 3.1415926535
-radius = float(input("plz enter radius: "))
-circumference = 2 * pi * radius
-print("Circumference:", circumference)
+def calculate_circumference(radius):
+    pi = 3.14
+    circumference = 2 * pi * radius
+    return circumference
+r = float(input("Enter the radius of the circle: "))
+result = calculate_circumference(r)
+print("The circumference of the circle is:", result)
